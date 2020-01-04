@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/millerspractice/static/css/main.d1b05096.chunk.css",
+    "main.js": "/millerspractice/static/js/main.35607efe.chunk.js",
+    "main.js.map": "/millerspractice/static/js/main.35607efe.chunk.js.map",
+    "runtime-main.js": "/millerspractice/static/js/runtime-main.76e672b4.js",
+    "runtime-main.js.map": "/millerspractice/static/js/runtime-main.76e672b4.js.map",
+    "static/js/2.ecd1da1a.chunk.js": "/millerspractice/static/js/2.ecd1da1a.chunk.js",
+    "static/js/2.ecd1da1a.chunk.js.map": "/millerspractice/static/js/2.ecd1da1a.chunk.js.map",
+    "index.html": "/millerspractice/index.html",
+    "precache-manifest.518fe08b7f6c3bdf5e24a7fbebe435fa.js": "/millerspractice/precache-manifest.518fe08b7f6c3bdf5e24a7fbebe435fa.js",
+    "service-worker.js": "/millerspractice/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/millerspractice/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.ecd1da1a.chunk.js.LICENSE": "/millerspractice/static/js/2.ecd1da1a.chunk.js.LICENSE",
+    "static/media/healthcare.png": "/millerspractice/static/media/healthcare.3f35d139.png",
+    "static/media/hearth.png": "/millerspractice/static/media/hearth.0f807958.png",
+    "static/media/logo.png": "/millerspractice/static/media/logo.69272775.png",
+    "static/media/male assistant profile.png": "/millerspractice/static/media/male assistant profile.668605c5.png",
+    "static/media/map.PNG": "/millerspractice/static/media/map.b34c85bd.PNG",
+    "static/media/office.jpg": "/millerspractice/static/media/office.9c84c66c.jpg",
+    "static/media/profile doc transperent.png": "/millerspractice/static/media/profile doc transperent.de578f1b.png",
+    "static/media/welcome.jpg": "/millerspractice/static/media/welcome.0c9a1fb2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.76e672b4.js",
+    "static/js/2.ecd1da1a.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.35607efe.chunk.js"
+  ]
+}
