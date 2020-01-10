@@ -1,30 +1,28 @@
 {
   "files": {
     "main.css": "/millerspractice/static/css/main.d1b05096.chunk.css",
-    "main.js": "/millerspractice/static/js/main.cbaaff06.chunk.js",
-    "main.js.map": "/millerspractice/static/js/main.cbaaff06.chunk.js.map",
+    "main.js": "/millerspractice/static/js/main.9cf18a0d.chunk.js",
+    "main.js.map": "/millerspractice/static/js/main.9cf18a0d.chunk.js.map",
     "runtime-main.js": "/millerspractice/static/js/runtime-main.76e672b4.js",
     "runtime-main.js.map": "/millerspractice/static/js/runtime-main.76e672b4.js.map",
-    "static/js/2.ecd1da1a.chunk.js": "/millerspractice/static/js/2.ecd1da1a.chunk.js",
-    "static/js/2.ecd1da1a.chunk.js.map": "/millerspractice/static/js/2.ecd1da1a.chunk.js.map",
+    "static/js/2.6890271b.chunk.js": "/millerspractice/static/js/2.6890271b.chunk.js",
+    "static/js/2.6890271b.chunk.js.map": "/millerspractice/static/js/2.6890271b.chunk.js.map",
     "index.html": "/millerspractice/index.html",
-    "precache-manifest.d84c9cf2001bc20c9732263d58250512.js": "/millerspractice/precache-manifest.d84c9cf2001bc20c9732263d58250512.js",
+    "precache-manifest.db229c92ac7e73692694dc3fbcff4880.js": "/millerspractice/precache-manifest.db229c92ac7e73692694dc3fbcff4880.js",
     "service-worker.js": "/millerspractice/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/millerspractice/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.ecd1da1a.chunk.js.LICENSE": "/millerspractice/static/js/2.ecd1da1a.chunk.js.LICENSE",
+    "static/js/2.6890271b.chunk.js.LICENSE": "/millerspractice/static/js/2.6890271b.chunk.js.LICENSE",
     "static/media/healthcare.png": "/millerspractice/static/media/healthcare.3f35d139.png",
     "static/media/hearth.png": "/millerspractice/static/media/hearth.0f807958.png",
     "static/media/logo.png": "/millerspractice/static/media/logo.69272775.png",
     "static/media/male assistant profile.png": "/millerspractice/static/media/male assistant profile.668605c5.png",
-    "static/media/map.PNG": "/millerspractice/static/media/map.b34c85bd.PNG",
-    "static/media/office.jpg": "/millerspractice/static/media/office.9c84c66c.jpg",
     "static/media/profile doc transperent.png": "/millerspractice/static/media/profile doc transperent.de578f1b.png",
     "static/media/welcome.jpg": "/millerspractice/static/media/welcome.0c9a1fb2.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.76e672b4.js",
-    "static/js/2.ecd1da1a.chunk.js",
+    "static/js/2.6890271b.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.cbaaff06.chunk.js"
+    "static/js/main.9cf18a0d.chunk.js"
   ]
 }
