@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
-import Paper from '@material-ui/core/Paper';
 import lightGreen from '@material-ui/core/colors/lightGreen';
-import hearth from './hearth.png';
-import healthcare from "./healthcare.png"
+import hearthxs from './hearth md.png';
+import hearthsm from './hearth200.png';
+import hearthmd from './hearth300.png';
+import hearthlg from './hearth350.png';
+import healthcaresm from "./healthcare sm.png"
+import healthcaremd from "./healthcare md.png"
+import healthcarelg from "./healthcare lg.png"
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import ScrollableAnchor from 'react-scrollable-anchor'
+import ResponsiveImgMaterialUi from "responsive-img-material-ui";
 
 
 export default class Aboutus extends Component {
@@ -13,44 +18,44 @@ export default class Aboutus extends Component {
     render() {
         return (
             <ScrollableAnchor id={'aboutus'}>
-                <Paper square={true} style={{ backgroundColor: lightGreen[100], height: 650, overflowX: "hidden", overflowY: "hidden" }}>
-                    <Grid container >
-                        <Grid item xs style={{ backgroundColor: lightGreen[200], height: 550, borderRadius: 16, marginTop: 45, marginRight: 120, marginLeft: 100 }}>
-                            <Typography style={{ color: "white", fontSize: 25, fontWeight: 700, textAlign: "left", paddingTop: 30, 
-                            marginLeft: 90 }}>
-                                Dear patients,
+                <Grid container direction="row"  style={{ backgroundColor: lightGreen[100], minHeight:200 , maxHeight:800}}>
+                    <Grid item xs style={{ backgroundColor: lightGreen[200], minHeight: "min-content",maxHeight:650, 
+                    borderRadius:16, marginTop:60,paddingBottom:20,marginBottom:40,
+                    minWidth: 180, maxWidth: 500, marginLeft: 80}}>
+                <Typography  style={{ color: "white", fontSize:"1.5vw", fontWeight: 700, textAlign: "left", paddingTop:30, marginLeft:90 }}>
+                    Dear patients,
                         </Typography>
-                            <Typography style={{ color: "white", fontSize: 25, fontWeight: 700, textAlign: "left", 
-                            marginTop: 15, marginLeft: 90 }}>
-                                welcome to our practice!
+                <Typography style={{ color: "white",fontWeight: 700, fontSize:"1.5vw", textAlign: "left", marginTop:15, marginLeft:90 }}>
+                    welcome to our practice!
                             </Typography>
 
-                            <Typography style={{ color: "white", fontSize: 17, textAlign: "left", marginTop: 60, marginRight: 90,
-                             marginLeft: 90, fontWeight: 500 }}>
-                                Our main goal is to find your individual therapy’s option
-                                                    with the help of our innovative, state-of-the-art technology.
-                                We focus on the prevention and early diagnosis of disorders
-                                in respiratory, digestive and integumentary system.
+                <Typography style={{ color: "white", fontSize:"1.15vw", textAlign: "left", fontWeight: 500, marginTop:50, marginLeft:90,  marginRight:40 }}>
+                    Our main goal is to find your individual therapy’s option 
+                    with the help of our innovative, state-of-the-art technology.
+                    We focus on the prevention and early diagnosis of disorders 
+                    in respiratory, digestive and integumentary system.
  </Typography>
-                            <Typography style={{ color: "white", fontSize: 17, textAlign: "left", marginTop: 40, 
-                            marginRight: 90,marginLeft: 90, fontWeight: 500 }}>
-                                We ensure quality care and speedy recovery for you, our patients. We pride ourselves on offering
-                                the highest level of treatment and clinical excellence in a timely, professional and discreet manner.
- </Typography>
-                            <Typography style={{ color: "white", fontSize: 17, textAlign: "left", marginTop: 40, 
-                            marginRight: 90,marginLeft: 90, fontWeight: 500 }}>
-                                Your health matters, so whether you are a patient or visitor,
+                <Typography  style={{ color: "white",  textAlign: "left", fontSize:"1.15vw", fontWeight: 500, marginTop:50, marginLeft:90,  marginRight:40 }}>
+                We ensure quality care and speedy recovery for you, our patients. 
+                We pride ourselves on offering the highest level of treatment and clinical
+                 excellence in a timely, professional and discreet manner.
+</Typography>
+<Typography  style={{ color: "white",  textAlign: "left", fontSize:"1.15vw", fontWeight: 500, marginBottom:50, marginTop:50, marginLeft:90,  marginRight:40 }}>
+Your health matters, so whether you are a patient or visitor,
                                 we are here to assist you before, during, and after your visit!
-                    </Typography>
+                                </Typography>
+</Grid>
+<Grid item xs style={{ backgroundColor: lightGreen[100], minHeight: "max-content", maxHeight: 600, position: "relative",
+borderRadius:16, minWidth: 180, maxWidth: 500, marginTop:100}}>
 
-                        </Grid>
-                        <Grid item xs>
+<ResponsiveImgMaterialUi xs={healthcaresm} sm={healthcaresm} md={healthcaremd} lg={healthcarelg} 
+style={{float: "right", marginTop: 10}}></ResponsiveImgMaterialUi>
 
-                            <img src={healthcare} alt="healthcare" style={{ float: "right", marginTop: 50, height: 200, marginRight: 250 }} />
-                            <img src={hearth} alt="hearth" style={{ float: "right", marginTop: 150, height: 200, marginRight: 180 }} />
-                        </Grid>
-                    </Grid>
-                </Paper>
+<ResponsiveImgMaterialUi xs={hearthxs} sm={hearthsm} md={hearthmd} lg={hearthlg} 
+style={{float: "right", bottom: 0, position:"absolute"}} ></ResponsiveImgMaterialUi>
+                
+                </Grid>
+                </Grid>
             </ScrollableAnchor>
         )
     }
