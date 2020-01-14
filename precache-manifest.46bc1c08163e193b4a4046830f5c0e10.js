@@ -1,35 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4623e7a5bf06c7f21d17be5cc9565ae7",
+    "revision": "292d54e746a3c15d7fe4f223760c5a35",
     "url": "/millerspractice/index.html"
   },
   {
-    "revision": "6217d7bb2907c2bdd89e",
+    "revision": "fdae0a0ff1e529b9edc1",
     "url": "/millerspractice/static/css/main.d1b05096.chunk.css"
   },
   {
-    "revision": "7695674ab28855b5810b",
-    "url": "/millerspractice/static/js/2.c815af1c.chunk.js"
+    "revision": "469c4103c0abc35d8058",
+    "url": "/millerspractice/static/js/2.072f9091.chunk.js"
   },
   {
     "revision": "a0560e08c2bea09cecbe463a56dcf52b",
-    "url": "/millerspractice/static/js/2.c815af1c.chunk.js.LICENSE"
+    "url": "/millerspractice/static/js/2.072f9091.chunk.js.LICENSE"
   },
   {
-    "revision": "6217d7bb2907c2bdd89e",
-    "url": "/millerspractice/static/js/main.bd30ca19.chunk.js"
+    "revision": "fdae0a0ff1e529b9edc1",
+    "url": "/millerspractice/static/js/main.5d485f8c.chunk.js"
   },
   {
     "revision": "65d10e3ba4190728225d",
     "url": "/millerspractice/static/js/runtime-main.76e672b4.js"
-  },
-  {
-    "revision": "5ee52bc4994dc81b4a31a793057949ed",
-    "url": "/millerspractice/static/media/desktop150.5ee52bc4.png"
-  },
-  {
-    "revision": "4cd8510bfbe547990dfdfedfa647ca3b",
-    "url": "/millerspractice/static/media/desktop200.4cd8510b.png"
   },
   {
     "revision": "15c228342150922f4c5bb1da5874bba8",
@@ -40,12 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/millerspractice/static/media/healthcare md.6ec9e088.png"
   },
   {
-    "revision": "ba540a753f61e0542ddd856b4f8e90ca",
-    "url": "/millerspractice/static/media/hearth300.ba540a75.png"
-  },
-  {
-    "revision": "5634856a9d1361d250eceb635150f7e7",
-    "url": "/millerspractice/static/media/hearth350.5634856a.png"
+    "revision": "776034c2dc7cb4835430b57c1d0e070c",
+    "url": "/millerspractice/static/media/hearth100.776034c2.png"
   },
   {
     "revision": "d9e659790a821d0454453caf5773556b",
