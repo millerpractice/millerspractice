@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import lightGreen from '@material-ui/core/colors/lightGreen';
-import hearthxs from './hearth md.png';
-import hearthsm from './hearth200.png';
-import hearthmd from './hearth300.png';
-import hearthlg from './hearth350.png';
+import healthcaresx from "./hearth100.png"
 import healthcaresm from "./healthcare sm.png"
 import healthcaremd from "./healthcare md.png"
 import healthcarelg from "./healthcare lg.png"
@@ -48,11 +45,10 @@ Your health matters, so whether you are a patient or visitor,
 <Grid item xs style={{ backgroundColor: lightGreen[100], minHeight: "max-content", maxHeight: 600, position: "relative",
 borderRadius:16, minWidth: 180, maxWidth: 500, marginTop:100}}>
 
-<ResponsiveImgMaterialUi xs={healthcaresm} sm={healthcaresm} md={healthcaremd} lg={healthcarelg} 
-style={{float: "right", marginTop: 10}}></ResponsiveImgMaterialUi>
+<ResponsiveImgMaterialUi xs={healthcaresx} sm={healthcaresm} md={healthcaremd} lg={healthcarelg} 
+style={{right: 0, marginTop: 10}}></ResponsiveImgMaterialUi>
 
-<ResponsiveImgMaterialUi xs={hearthxs} sm={hearthsm} md={hearthmd} lg={hearthlg} 
-style={{float: "right", bottom: 0, position:"absolute"}} ></ResponsiveImgMaterialUi>
+
                 
                 </Grid>
                 </Grid>
